@@ -17,4 +17,4 @@ Each step could be outputted into the '/images/output_image' folder. Please edit
 
 ## Things need to be improved:
 The bounding box could be changed to polygon based on the shape of the QR code.
-The rectangle box would affect the decode result if the QR code is not perfectly a rectangle.
+The rectangle box would affect the decoded result if the QR code is not perfectly a rectangle.
