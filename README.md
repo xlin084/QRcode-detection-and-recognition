@@ -1,6 +1,6 @@
 # QRcode-detection-and-recognition
 
-QR code detection and recognition by using python language but no image processing packages (opencv etc).
+QR code detection and decoding by using python language but no image processing packages (opencv etc).
 
 ## Image processing procedure & algorithm:
 1. read the input image, convert RGB data to greyscale and stretch the values to lie between 0 and 255;
