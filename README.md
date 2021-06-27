@@ -4,9 +4,9 @@ QR code detection and recognition by using python language but no image processi
 
 ## Image processing procedure & algorithm:
 1. read the input image, convert RGB data to greyscale and stretch the values to lie between 0 and 255;
-2. compute horizontal edges, compute vertical edges, compute edge magnitude;
-3. compute horizontal edges, compute vertical edges, compute edge magnitude;
-4. compute horizontal edges, compute vertical edges, compute edge (gradient) magnitude;
+2. compute horizontal edges
+3. compute vertical edges, compute edge magnitude;
+4. compute edge (gradient) magnitude;
 5. smooth over the edge magnitude (mean or Gaussian, I use mean here), and stretch contrast to 0 and 255;
 6. perform a thresholding operation to get the edge regions as a binary image;
 7. perform a morphological closing operation to fill holes (dilation and erotion);
