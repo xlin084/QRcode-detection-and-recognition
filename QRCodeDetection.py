@@ -6,7 +6,6 @@ import pyzbar.pyzbar as pyzbar
 # import cv2
 import numpy as np
 import matplotlib as plt
-
 import imageIO.png
 
 
